@@ -1,0 +1,314 @@
+{
+  "project": "FRACTURE",
+  "version": "1.0",
+  "units": "metres",
+  "axes": {
+    "up": "+Z",
+    "east": "+X",
+    "north": "+Y"
+  },
+  "origin_contract": "Standalone building: centre of footprint at Z=0; road module: segment midpoint at Z=0; junction: centre at Z=0; props: base centre at Z=0.",
+  "style": {
+    "description": "premium architectural simulation diorama; restrained Renaissance engineering atlas; readable silhouettes; modular, neutral materials",
+    "palette_hex": {
+      "ink_navy": "#111820",
+      "asphalt": "#29313A",
+      "concrete": "#A9AAA5",
+      "warm_limestone": "#D8C9AD",
+      "glass": "#7895A6",
+      "muted_copper": "#B77B4B",
+      "vegetation": "#526B54",
+      "route_marking": "#E7E2D5",
+      "state_disrupted": "#E05252",
+      "state_repaired": "#55B9A5"
+    }
+  },
+  "assets": [
+    {
+      "id": "building_academic_block",
+      "file": "building_academic_block.glb",
+      "category": "building",
+      "dimensions_m": [
+        18,
+        12,
+        11
+      ],
+      "origin": "footprint_center_ground",
+      "description": "3-floor academic building, repeated window bays, central entrance, flat roof, contrasting canopy",
+      "priority": "P0"
+    },
+    {
+      "id": "building_library",
+      "file": "building_library.glb",
+      "category": "building",
+      "dimensions_m": [
+        20,
+        14,
+        9
+      ],
+      "origin": "footprint_center_ground",
+      "description": "2-floor wider library, tall glazed reading-room facade, roof skylight strips, stepped entrance",
+      "priority": "P0"
+    },
+    {
+      "id": "building_administration",
+      "file": "building_administration.glb",
+      "category": "building",
+      "dimensions_m": [
+        14,
+        10,
+        10
+      ],
+      "origin": "footprint_center_ground",
+      "description": "3-floor symmetrical administration building, central portico/canopy, parapet",
+      "priority": "P0"
+    },
+    {
+      "id": "building_laboratory",
+      "file": "building_laboratory.glb",
+      "category": "building",
+      "dimensions_m": [
+        16,
+        12,
+        8
+      ],
+      "origin": "footprint_center_ground",
+      "description": "2-floor modern laboratory, rooftop vents, service-side equipment, service door",
+      "priority": "P1"
+    },
+    {
+      "id": "building_auditorium",
+      "file": "building_auditorium.glb",
+      "category": "building",
+      "dimensions_m": [
+        22,
+        16,
+        8
+      ],
+      "origin": "footprint_center_ground",
+      "description": "low wide hall, taller central volume, vertical facade fins, broad entrance plaza",
+      "priority": "P1"
+    },
+    {
+      "id": "building_utility",
+      "file": "building_utility.glb",
+      "category": "building",
+      "dimensions_m": [
+        8,
+        6,
+        4
+      ],
+      "origin": "footprint_center_ground",
+      "description": "small single-storey utility block, vents and service doors",
+      "priority": "P1"
+    },
+    {
+      "id": "road_straight",
+      "file": "road_straight.glb",
+      "category": "road",
+      "dimensions_m": [
+        12,
+        5,
+        0.18
+      ],
+      "origin": "segment_midpoint_ground",
+      "description": "straight asphalt road module with dashed centre markings and restrained curbs",
+      "priority": "P0"
+    },
+    {
+      "id": "road_corner_90",
+      "file": "road_corner_90.glb",
+      "category": "road",
+      "dimensions_m": [
+        8,
+        8,
+        0.18
+      ],
+      "origin": "junction_center_ground",
+      "description": "90-degree road corner module with continuous curb and turning markings",
+      "priority": "P1"
+    },
+    {
+      "id": "junction_4way",
+      "file": "junction_4way.glb",
+      "category": "junction",
+      "dimensions_m": [
+        8,
+        8,
+        0.18
+      ],
+      "origin": "junction_center_ground",
+      "description": "four-way junction base with clear road markings; app graph remains authoritative",
+      "priority": "P0"
+    },
+    {
+      "id": "junction_t",
+      "file": "junction_t.glb",
+      "category": "junction",
+      "dimensions_m": [
+        8,
+        8,
+        0.18
+      ],
+      "origin": "junction_center_ground",
+      "description": "T-junction base with three connected arms",
+      "priority": "P1"
+    },
+    {
+      "id": "access_pedestrian_gate",
+      "file": "access_pedestrian_gate.glb",
+      "category": "access",
+      "dimensions_m": [
+        4,
+        1,
+        3
+      ],
+      "origin": "base_center_ground",
+      "description": "campus pedestrian gate with two posts and a simple overhead frame",
+      "priority": "P0"
+    },
+    {
+      "id": "access_emergency_exit",
+      "file": "access_emergency_exit.glb",
+      "category": "access",
+      "dimensions_m": [
+        3,
+        1,
+        3.5
+      ],
+      "origin": "base_center_ground",
+      "description": "distinct exit portal with blank sign panel and a designated accent strip",
+      "priority": "P0"
+    },
+    {
+      "id": "access_ramp_stairs",
+      "file": "access_ramp_stairs.glb",
+      "category": "access",
+      "dimensions_m": [
+        5,
+        3,
+        1.2
+      ],
+      "origin": "base_center_ground",
+      "description": "combined shallow ramp and steps with railings; keep access route visible",
+      "priority": "P1"
+    },
+    {
+      "id": "prop_tree",
+      "file": "prop_tree.glb",
+      "category": "prop",
+      "dimensions_m": [
+        2.5,
+        2.5,
+        5
+      ],
+      "origin": "base_center_ground",
+      "description": "stylised campus tree with compact canopy and trunk, efficient geometry",
+      "priority": "P0"
+    },
+    {
+      "id": "prop_lamp_post",
+      "file": "prop_lamp_post.glb",
+      "category": "prop",
+      "dimensions_m": [
+        0.35,
+        0.35,
+        4.5
+      ],
+      "origin": "base_center_ground",
+      "description": "slim lamp post with simple lamp head",
+      "priority": "P1"
+    },
+    {
+      "id": "prop_bench",
+      "file": "prop_bench.glb",
+      "category": "prop",
+      "dimensions_m": [
+        1.8,
+        0.6,
+        0.9
+      ],
+      "origin": "base_center_ground",
+      "description": "minimal campus bench, slatted seat and supports",
+      "priority": "P1"
+    },
+    {
+      "id": "prop_signboard_blank",
+      "file": "prop_signboard_blank.glb",
+      "category": "prop",
+      "dimensions_m": [
+        1.2,
+        0.25,
+        2
+      ],
+      "origin": "base_center_ground",
+      "description": "blank signboard with clean front surface; all labels rendered in app",
+      "priority": "P0"
+    },
+    {
+      "id": "environment_sidewalk_tile",
+      "file": "environment_sidewalk_tile.glb",
+      "category": "environment",
+      "dimensions_m": [
+        4,
+        4,
+        0.2
+      ],
+      "origin": "tile_center_ground",
+      "description": "concrete sidewalk tile with curb edge and subtle seams",
+      "priority": "P0"
+    },
+    {
+      "id": "environment_landscape_island",
+      "file": "environment_landscape_island.glb",
+      "category": "environment",
+      "dimensions_m": [
+        5,
+        3,
+        0.35
+      ],
+      "origin": "footprint_center_ground",
+      "description": "small landscaped island with low plants and border",
+      "priority": "P1"
+    },
+    {
+      "id": "prop_blocker_barrier",
+      "file": "prop_blocker_barrier.glb",
+      "category": "prop",
+      "dimensions_m": [
+        2.2,
+        0.5,
+        1.1
+      ],
+      "origin": "base_center_ground",
+      "description": "movable road-closure barrier; app toggles visibility for blocked links",
+      "priority": "P0"
+    },
+    {
+      "id": "environment_ground_base",
+      "file": "environment_ground_base.glb",
+      "category": "environment",
+      "dimensions_m": [
+        100,
+        80,
+        0.5
+      ],
+      "origin": "footprint_center_ground",
+      "description": "preview-only low-profile campus base plate; may be omitted from runtime",
+      "priority": "P2"
+    }
+  ],
+  "runtime_rules": {
+    "simulation_graph_is_authoritative": true,
+    "do_not_infer_routes_from_meshes": true,
+    "agent_characters_are_runtime_objects_not_baked_into_glb": true,
+    "state_variants": [
+      "normal",
+      "disrupted",
+      "repaired"
+    ],
+    "preferred_state_implementation": "neutral base asset plus named accent mesh/material slot that frontend can recolour; use separate barrier prop for route closure",
+    "no_baked_text": true,
+    "no_external_texture_dependencies": true
+  }
+}

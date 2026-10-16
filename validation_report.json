@@ -1,0 +1,117 @@
+{
+  "status": "NOT_RUN",
+  "reason": "Blender was not found on PATH or in standard Program Files locations.",
+  "generator": "generate_fracture_assets.py",
+  "asset_count": 21,
+  "glb_exports": "NOT_GENERATED",
+  "clean_scene_import_validation": "NOT_RUN",
+  "contact_sheet": "NOT_GENERATED",
+  "preview_scene_glb": "NOT_GENERATED",
+  "items": [
+    {
+      "id": "building_academic_block",
+      "file": "building_academic_block.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "building_library",
+      "file": "building_library.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "building_administration",
+      "file": "building_administration.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "building_laboratory",
+      "file": "building_laboratory.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "building_auditorium",
+      "file": "building_auditorium.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "building_utility",
+      "file": "building_utility.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "road_straight",
+      "file": "road_straight.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "road_corner_90",
+      "file": "road_corner_90.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "junction_4way",
+      "file": "junction_4way.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "junction_t",
+      "file": "junction_t.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "access_pedestrian_gate",
+      "file": "access_pedestrian_gate.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "access_emergency_exit",
+      "file": "access_emergency_exit.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "access_ramp_stairs",
+      "file": "access_ramp_stairs.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "prop_tree",
+      "file": "prop_tree.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "prop_lamp_post",
+      "file": "prop_lamp_post.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "prop_bench",
+      "file": "prop_bench.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "prop_signboard_blank",
+      "file": "prop_signboard_blank.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "environment_sidewalk_tile",
+      "file": "environment_sidewalk_tile.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "environment_landscape_island",
+      "file": "environment_landscape_island.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "prop_blocker_barrier",
+      "file": "prop_blocker_barrier.glb",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "environment_ground_base",
+      "file": "environment_ground_base.glb",
+      "status": "NOT_RUN"
+    }
+  ]
+}
