@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "node --experimental-strip-types --test tests/graph.test.ts"
+    "test": "node --experimental-strip-types --test tests/graph.test.ts tests/simulation.test.ts"
   },
   "dependencies": {
     "@react-three/fiber": "^9.8.2",
